@@ -1,0 +1,5075 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd"><score-partwise version="3.1">
+  <movement-title>432장 큰 물결이 설레는 어둔 바다</movement-title>
+  <identification>
+    <creator type="composer">W.S.Nickel</creator>
+    <creator type="poet">A.Blenkhorn</creator>
+    <encoding>
+      <software>MuseScore 3.6.2</software>
+      <encoding-date>2022-03-15</encoding-date>
+      <supports element="accidental" type="yes"/>
+      <supports element="beam" type="yes"/>
+      <supports element="print" attribute="new-page" type="yes" value="yes"/>
+      <supports element="print" attribute="new-system" type="yes" value="yes"/>
+      <supports element="stem" type="yes"/>
+      </encoding>
+    </identification>
+  <defaults>
+    <scaling>
+      <millimeters>6.99911</millimeters>
+      <tenths>40</tenths>
+      </scaling>
+    <page-layout>
+      <page-height>1697.36</page-height>
+      <page-width>1200.15</page-width>
+      <page-margins type="even">
+        <left-margin>85.7252</left-margin>
+        <right-margin>85.7252</right-margin>
+        <top-margin>85.7252</top-margin>
+        <bottom-margin>85.7252</bottom-margin>
+        </page-margins>
+      <page-margins type="odd">
+        <left-margin>85.7252</left-margin>
+        <right-margin>85.7252</right-margin>
+        <top-margin>85.7252</top-margin>
+        <bottom-margin>85.7252</bottom-margin>
+        </page-margins>
+      </page-layout>
+    <word-font font-family="Edwin" font-size="10"/>
+    <lyric-font font-family="Edwin" font-size="10"/>
+    </defaults>
+  <credit page="1">
+    <credit-type>title</credit-type>
+    <credit-words default-x="600.076" default-y="1611.63" justify="center" valign="top" font-size="22">432장 큰 물결이 설레는 어둔 바다</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-type>composer</credit-type>
+    <credit-words default-x="1114.43" default-y="1511.63" justify="right" valign="bottom">W.S.Nickel</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-type>lyricist</credit-type>
+    <credit-words default-x="85.7252" default-y="1511.63" justify="left" valign="bottom">A.Blenkhorn</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-type>rights</credit-type>
+    <credit-words default-x="600.076" default-y="85.7252" justify="center" valign="bottom" font-size="9">Copyright 2022 David Sung</credit-words>
+    </credit>
+  <credit page="2">
+    <credit-type>rights</credit-type>
+    <credit-words default-x="600.076" default-y="85.7252" justify="center" valign="bottom" font-size="9">Copyright 2022 David Sung</credit-words>
+    </credit>
+  <part-list>
+    <score-part id="P1">
+      <part-name/>
+      <score-instrument id="P1-I1">
+        <instrument-name/>
+        </score-instrument>
+      <midi-device id="P1-I1" port="1"/>
+      <midi-instrument id="P1-I1">
+        <midi-channel>1</midi-channel>
+        <midi-program>1</midi-program>
+        <volume>78.7402</volume>
+        <pan>0</pan>
+        </midi-instrument>
+      </score-part>
+    <score-part id="P3">
+      <part-name/>
+      <score-instrument id="P3-I1">
+        <instrument-name/>
+        </score-instrument>
+      <midi-device id="P3-I1" port="1"/>
+      <midi-instrument id="P3-I1">
+        <midi-channel>3</midi-channel>
+        <midi-program>1</midi-program>
+        <volume>78.7402</volume>
+        <pan>0</pan>
+        </midi-instrument>
+      </score-part>
+    </part-list>
+  <part id="P1">
+    <measure number="1" width="160.97">
+      <print>
+        <system-layout>
+          <system-margins>
+            <left-margin>50.00</left-margin>
+            <right-margin>0.00</right-margin>
+            </system-margins>
+          <top-system-distance>170.00</top-system-distance>
+          </system-layout>
+        </print>
+      <attributes>
+        <divisions>2</divisions>
+        <key>
+          <fifths>-3</fifths>
+          <mode>major</mode>
+          </key>
+        <time>
+          <beats>6</beats>
+          <beat-type>4</beat-type>
+          </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+          </clef>
+        </attributes>
+      <direction placement="above">
+        <direction-type>
+          <metronome parentheses="no" default-x="-37.68" relative-y="20.00">
+            <beat-unit>half</beat-unit>
+            <beat-unit-dot/>
+            <per-minute>52</per-minute>
+            </metronome>
+          </direction-type>
+        <sound tempo="156"/>
+        </direction>
+      <note default-x="121.61" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="-14.79" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>1.큰</text>
+          </lyric>
+        <lyric number="2" default-x="-16.10" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>2.큰</text>
+          </lyric>
+        <lyric number="3" default-x="-15.97" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>3.큰</text>
+          </lyric>
+        </note>
+      <backup><duration>2</duration></backup><note default-x="121.61" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="2" width="222.23">
+      <note default-x="16.50" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>물</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>풍</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>소</text>
+          </lyric>
+        </note>
+      <note default-x="57.94" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>결</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>랑</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        </note>
+      <note default-x="84.49" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>로</text>
+          </lyric>
+        </note>
+      <note default-x="118.48" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>설</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>물</text>
+          </lyric>
+        </note>
+      <note default-x="152.46" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>레</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>배</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>결</text>
+          </lyric>
+        </note>
+      <note default-x="186.44" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>는</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>를</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>을</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="57.94" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="84.49" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="118.48" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="152.46" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="186.44" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="3" width="186.85">
+      <note default-x="16.50" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>위</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>명</text>
+          </lyric>
+        </note>
+      <note default-x="46.60" default-y="-45.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>둔</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>협</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>하</text>
+          </lyric>
+        </note>
+      <note default-x="76.70" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>하</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>시</text>
+          </lyric>
+        </note>
+      <note default-x="106.80" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>며</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>면</text>
+          </lyric>
+        </note>
+      <note default-x="154.95" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="46.60" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="76.70" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="106.80" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="154.95" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="4" width="223.61">
+      <note default-x="16.50" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>등</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>깊</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        </note>
+      <note default-x="58.26" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>대</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>은</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <note default-x="84.82" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>의</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>물</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>는</text>
+          </lyric>
+        </note>
+      <note default-x="119.07" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>불</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>입</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>고</text>
+          </lyric>
+        </note>
+      <note default-x="153.31" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>빛</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>벌</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>요</text>
+          </lyric>
+        </note>
+      <note default-x="187.56" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>려</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>히</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="58.26" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="84.82" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="119.07" default-y="-185.94">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="153.31" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="187.56" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="5" width="185.03">
+      <note default-x="16.50" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>희</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>달</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>잠</text>
+          </lyric>
+        </note>
+      <note default-x="46.21" default-y="-45.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>미</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>려</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>자</text>
+          </lyric>
+        </note>
+      <note default-x="75.92" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>한</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>드</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        </note>
+      <note default-x="105.63" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>데</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        </note>
+      <note default-x="153.16" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.75" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.49" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="46.21" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="75.92" default-y="-210.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="105.63" default-y="-200.94">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="153.16" default-y="-195.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="6" width="290.30">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0.00</left-margin>
+            <right-margin>0.00</right-margin>
+            </system-margins>
+          <system-distance>150.00</system-distance>
+          </system-layout>
+        </print>
+      <note default-x="99.48" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>풍</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>동</text>
+          </lyric>
+        </note>
+      <note default-x="137.43" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>랑</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>녘</text>
+          </lyric>
+        </note>
+      <note default-x="163.99" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>에</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>에</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        </note>
+      <note default-x="195.12" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>배</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>노</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>환</text>
+          </lyric>
+        </note>
+      <note default-x="226.24" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>하</text>
+          </lyric>
+        </note>
+      <note default-x="257.37" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>게</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="137.43" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="163.99" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="195.12" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="226.24" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="257.37" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="7" width="179.65">
+      <note default-x="16.50" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>항</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>항</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>밝</text>
+          </lyric>
+        </note>
+      <note default-x="44.71" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>해</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>해</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>아</text>
+          </lyric>
+        </note>
+      <note default-x="73.83" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>하</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>하</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>올</text>
+          </lyric>
+        </note>
+      <note default-x="102.05" default-y="-25.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>는</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>는</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>때</text>
+          </lyric>
+        </note>
+      <note default-x="147.19" default-y="-15.00">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-211.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="44.71" default-y="-211.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="73.83" default-y="-201.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        </note>
+      <note default-x="102.05" default-y="-206.00">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="147.19" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="8" width="205.60">
+      <note default-x="16.06" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>작</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>작</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        </note>
+      <note default-x="53.71" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>은</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>은</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>함</text>
+          </lyric>
+        </note>
+      <note default-x="80.27" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>배</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>배</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>께</text>
+          </lyric>
+        </note>
+      <note default-x="111.15" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>사</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>사</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        </note>
+      <note default-x="142.03" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>공</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>공</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        </note>
+      <note default-x="172.91" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>은</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>은</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.06" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="53.71" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="80.27" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="111.15" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="142.03" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="172.91" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="9" width="177.85">
+      <note default-x="15.70" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>건</text>
+          </lyric>
+        </note>
+      <note default-x="42.26" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>님</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>님</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>너</text>
+          </lyric>
+        </note>
+      <note default-x="77.25" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>가</text>
+          </lyric>
+        </note>
+      <note default-x="105.94" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        </note>
+      <note default-x="145.39" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.70" default-y="-201.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="42.26" default-y="-201.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="77.25" default-y="-201.00">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="105.94" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="145.39" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="10" width="175.31">
+      <note default-x="15.70" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        </note>
+      <note default-x="49.81" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        </note>
+      <note default-x="76.37" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        </note>
+      <note default-x="104.34" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>네</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>네</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>네</text>
+          </lyric>
+        </note>
+      <note default-x="142.81" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>두</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.70" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="49.81" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="76.37" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="104.34" default-y="-186.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="142.81" default-y="-196.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="11" width="258.33">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0.00</left-margin>
+            <right-margin>0.00</right-margin>
+            </system-margins>
+          <top-system-distance>70.00</top-system-distance>
+          </system-layout>
+        </print>
+      <note default-x="99.48" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>렴</text>
+          </lyric>
+        </note>
+      <note default-x="126.95" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>없</text>
+          </lyric>
+        </note>
+      <note default-x="154.41" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        </note>
+      <note default-x="181.88" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <note default-x="225.83" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>주</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="126.95" default-y="-210.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="154.41" default-y="-210.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="181.88" default-y="-210.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="225.83" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="12" width="205.76">
+      <note default-x="15.11" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>예</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>예</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>예</text>
+          </lyric>
+        </note>
+      <note default-x="53.03" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>수</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>수</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>수</text>
+          </lyric>
+        </note>
+      <note default-x="79.58" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>님</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>님</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>님</text>
+          </lyric>
+        </note>
+      <note default-x="110.68" default-y="-5.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>늘</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>늘</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>늘</text>
+          </lyric>
+        </note>
+      <note default-x="141.77" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>깨</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>깨</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>깨</text>
+          </lyric>
+        </note>
+      <note default-x="172.86" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>어</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.11" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="53.03" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="79.58" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="110.68" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="141.77" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="172.86" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="13" width="169.11">
+      <note default-x="18.04" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>계</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>계</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>계</text>
+          </lyric>
+        </note>
+      <note default-x="44.03" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>시</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>시</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>시</text>
+          </lyric>
+        </note>
+      <note default-x="70.02" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>도</text>
+          </lyric>
+        </note>
+      <note default-x="96.02" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <note default-x="137.61" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="18.04" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="44.03" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="70.02" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="96.02" default-y="-200.98">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="137.61" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="14" width="213.65">
+      <note default-x="16.50" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        </note>
+      <note default-x="55.93" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>흉</text>
+          </lyric>
+        </note>
+      <note default-x="82.49" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>한</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>한</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>한</text>
+          </lyric>
+        </note>
+      <note default-x="114.83" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>바</text>
+          </lyric>
+        </note>
+      <note default-x="147.17" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <note default-x="179.51" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>를</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>를</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>를</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="55.93" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="82.49" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="114.83" default-y="-185.98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="147.17" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="179.51" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="15" width="181.86">
+      <note default-x="16.50" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>다</text>
+          </lyric>
+        </note>
+      <note default-x="45.49" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>지</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>지</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>지</text>
+          </lyric>
+        </note>
+      <note default-x="74.61" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        </note>
+      <note default-x="103.60" default-y="-25.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>면</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>면</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>면</text>
+          </lyric>
+        </note>
+      <note default-x="149.98" default-y="-15.00">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.74" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.48" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.21" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>저</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-210.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="45.49" default-y="-210.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="74.61" default-y="-200.98">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        </note>
+      <note default-x="103.60" default-y="-205.98">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="149.98" default-y="-195.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="16" width="607.72">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0.00</left-margin>
+            <right-margin>0.00</right-margin>
+            </system-margins>
+          <system-distance>150.00</system-distance>
+          </system-layout>
+        </print>
+      <note default-x="99.48" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>소</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>소</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>소</text>
+          </lyric>
+        </note>
+      <note default-x="205.14" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>망</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>망</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>망</text>
+          </lyric>
+        </note>
+      <note default-x="259.30" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>의</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>의</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>의</text>
+          </lyric>
+        </note>
+      <note default-x="345.96" default-y="-20.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>나</text>
+          </lyric>
+        </note>
+      <note default-x="432.61" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        </note>
+      <note default-x="519.27" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>에</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>에</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>에</text>
+          </lyric>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="205.14" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="259.30" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="345.96" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="432.61" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="519.27" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="17" width="420.98">
+      <note default-x="14.71" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>이</text>
+          </lyric>
+        </note>
+      <note default-x="73.31" default-y="-30.00">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>르</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>르</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>르</text>
+          </lyric>
+        </note>
+      <note default-x="187.64" default-y="-35.00">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>리</text>
+          </lyric>
+        </note>
+      <note default-x="281.41" default-y="-40.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <lyric number="1" default-x="6.50" default-y="-51.76" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="2" default-x="6.50" default-y="-73.50" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        <lyric number="3" default-x="6.50" default-y="-95.23" relative-y="-30.00">
+          <syllabic>single</syllabic>
+          <text>라</text>
+          </lyric>
+        </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        </barline>
+      <backup><duration>10</duration></backup><note default-x="14.71" default-y="-197.20">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="73.31" default-y="-197.20">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="187.64" default-y="-197.20">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="281.41" default-y="-192.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    </part>
+  <part id="P3">
+    <measure number="1" width="160.97">
+      <print>
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <attributes>
+        <divisions>2</divisions>
+        <key>
+          <fifths>-3</fifths>
+          <mode>major</mode>
+          </key>
+        <time>
+          <beats>6</beats>
+          <beat-type>4</beat-type>
+          </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+          </clef>
+        </attributes>
+      <note default-x="121.61" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>2</duration></backup><note default-x="121.61" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="2" width="222.23">
+      <note default-x="16.50" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="57.94" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="84.49" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="118.48" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="152.46" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="186.44" default-y="-265.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="57.94" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="84.49" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="118.48" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="152.46" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="186.44" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="3" width="186.85">
+      <note default-x="16.50" default-y="-265.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="46.60" default-y="-270.94">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="76.70" default-y="-260.94">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="106.80" default-y="-265.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="154.95" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-395.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="46.60" default-y="-395.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="76.70" default-y="-395.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="106.80" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="154.95" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="4" width="223.61">
+      <note default-x="16.50" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="58.26" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="84.82" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="119.07" default-y="-240.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="153.31" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="187.56" default-y="-265.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="58.26" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="84.82" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="119.07" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="153.31" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="187.56" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="5" width="185.03">
+      <note default-x="16.50" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="46.21" default-y="-260.94">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="75.92" default-y="-265.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="105.63" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="153.16" default-y="-255.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-370.94">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="46.21" default-y="-375.94">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="75.92" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="105.63" default-y="-395.94">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="153.16" default-y="-380.94">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="6" width="290.30">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="99.48" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="137.43" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="163.99" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="195.12" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="226.24" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="257.37" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="137.43" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="163.99" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="195.12" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="226.24" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="257.37" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="7" width="179.65">
+      <note default-x="16.50" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="44.71" default-y="-261.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="73.83" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="102.05" default-y="-261.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="147.19" default-y="-261.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="44.71" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="73.83" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="102.05" default-y="-401.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="147.19" default-y="-401.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="8" width="205.60">
+      <note default-x="16.06" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="53.71" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="80.27" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="111.15" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="142.03" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="172.91" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.06" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="53.71" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="80.27" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="111.15" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="142.03" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="172.91" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="9" width="177.85">
+      <note default-x="15.70" default-y="-261.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="42.26" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="77.25" default-y="-261.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="105.94" default-y="-266.00">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="145.39" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.70" default-y="-396.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="42.26" default-y="-396.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="77.25" default-y="-396.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="105.94" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="145.39" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="10" width="175.31">
+      <note default-x="15.70" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="49.81" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="76.37" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="104.34" default-y="-241.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="142.81" default-y="-256.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.70" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="49.81" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="76.37" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="104.34" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="142.81" default-y="-381.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="11" width="258.33">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="99.48" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="126.95" default-y="-265.98">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="154.41" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="181.88" default-y="-265.98">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="225.83" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-395.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="126.95" default-y="-395.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="154.41" default-y="-395.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="181.88" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="225.83" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="12" width="205.76">
+      <note default-x="15.11" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="53.03" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="79.58" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="110.68" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="141.77" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="172.86" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="15.11" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="53.03" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="79.58" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="110.68" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="141.77" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="172.86" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="13" width="169.11">
+      <note default-x="18.04" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        </note>
+      <note default-x="44.03" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="70.02" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="96.02" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="137.61" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="18.04" default-y="-390.98">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="44.03" default-y="-390.98">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="70.02" default-y="-390.98">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="96.02" default-y="-395.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="137.61" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="14" width="213.65">
+      <note default-x="16.50" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="55.93" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="82.49" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="114.83" default-y="-240.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="147.17" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="179.51" default-y="-265.98">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="55.93" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="82.49" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="114.83" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="147.17" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="179.51" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="15" width="181.86">
+      <note default-x="16.50" default-y="-265.98">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="45.49" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="74.61" default-y="-255.98">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="103.60" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="149.98" default-y="-260.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="16.50" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="45.49" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="74.61" default-y="-380.98">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="103.60" default-y="-400.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="149.98" default-y="-400.98">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="16" width="607.72">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <note default-x="99.48" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="205.14" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="259.30" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="345.96" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="432.61" default-y="-252.20">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="519.27" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <backup><duration>12</duration></backup><note default-x="99.48" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="205.14" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="259.30" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="345.96" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="432.61" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="519.27" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="17" width="420.98">
+      <note default-x="14.71" default-y="-257.20">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="73.31" default-y="-252.20">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        </note>
+      <note default-x="187.64" default-y="-257.20">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="281.41" default-y="-262.20">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        </barline>
+      <backup><duration>10</duration></backup><note default-x="14.71" default-y="-392.20">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="73.31" default-y="-392.20">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>3</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>down</stem>
+        </note>
+      <note default-x="187.64" default-y="-392.20">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="281.41" default-y="-377.20">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    </part>
+  </score-partwise>
