@@ -1,0 +1,113 @@
+/*Font Face*/
+@font-face {
+    font-family: 'KoPubDotumMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.ttf) format("truetype");
+}
+
+
+html,
+body,
+div,
+svg,
+text,
+.musicSheet {
+
+    background-color: transparent;
+    /*font-family: 'KoPubDotumMedium';*/
+}
+
+
+.ui,
+.segment {
+    font-family: "GmarketSansLight";
+    overflow: 'auto';
+}
+
+text[font-size="40px"] {
+    font-size: 2.7em;
+    /*34px;2.5em;*/
+}
+
+#createCanvas {
+
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.musicSheet {
+    width: 900px;
+    /*2300px;*/
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+@media (max-width: 900px) {
+    .musicSheet {
+        /*position: relative;*/
+        width: 100vw;
+        /*2300px;*/
+        height=calc(100vw * 1.1414);
+        left: calc(-50vw + 50%);
+        border-bottom: 1px dashed #efefef;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    text[font-size="40px"] {
+        font-size: 2.3em;
+        /*28px;2.0em;*/
+    }
+
+}
+
+
+div[id^="osmdCanvasPage"] {
+    /*
+	width: 900px;
+    height: 100%;
+	*/
+    width=100%;
+    /*height = calc(100vw * 1.1414);*/
+    margin: 0 auto;
+    border-bottom: 1px dashed #000000;
+
+}
+
+svg[id^="osmdSvgPage"] {
+    /*
+	width: 900px;
+    height: 100%;
+    */
+    width=100%;
+
+    /*height = calc(100vw * 1.1414);*/
+
+}
