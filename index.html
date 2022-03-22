@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.4.5/build/opensheetmusicdisplay.min.js" integrity="sha256-6gCVkfTMk/vV431iszn/B3dUYJCaQO+o82xEAFERB9U=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://unpkg.com/svg2pdf.js@2.2.0/dist/svg2pdf.umd.min.js"></script>
+
+    <script src="./js/KoPub-font-base64.js"></script>
+    <script src="./js/NanumMyeongjo-font-base64.js"></script>
+    <script src="./js/Namum-font-base64.js"></script>
+
+    <link rel="stylesheet" href="hymnXmlViewer.css" />
+
+</head>
+
+<body>
+    <div id="topContainer" class="ui container raised segments">
+        <div class="ui dimmer">
+            <div class="ui indeterminate massive text loader">생성중...</div>
+        </div>
+
+        <div class="ui attached blue segment">
+            <div class="ui top attached gray label">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui header">
+                            <i class="music icon"></i>
+                            새찬송가 악보 뷰어 ver 0.8
+                        </div>
+                    </div>
+                    <div class="right aligned six wide column">
+                        <a href="https://ccmhymn.github.io/sheet/" target="_blank">
+                            <i class="linkify icon"></i>추천링크
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ui grid">
+                <div class="eleven wide column">
+                    <div class="ui">
+                        <select id="hymnLists" class="ui fluid search selection scrolling dropdown">
+                            <option>--장/제목 검색--</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui fluid labeled input">
+                        <label class="ui fluid label gray basic button" for="fileInput" data-tooltip="xml,mxl,musicxml" data-position="top right"><i class="file icon"></i>파일</label>
+                        <input type="file" id="fileInput" name="file" class="ui basic primary button" accept=".xml,.mxl,.musicxml" formenctype="application/zip" style="display:none;" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui attached equal width grid">
+                <div class="column">
+                    <div class="ui menu">
+                        <select id="Fontface" onchange="changeFont()" class="ui fluid selection scrolling dropdown">
+                            <option value="KoPubDotumMedium">돋움</option>
+                            <option value="NanumMyeongjo" selected>명조</option>
+                            <option value="NanumBarunGothic">고딕</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui fluid two item menu">
+                        <a class="item" id="transpose-up-btn">
+                            <i class="icon arrow up"></i>
+                            <div class="floating ui teal label" id="transpose-str">Key</div>
+                        </a>
+                        <a class="item" id="transpose-down-btn">
+                            <i class="icon arrow down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui fluid two item menu">
+                        <a class="item" id="zoom-in-btn">
+                            <i class="icon zoom-in"></i>
+                            <div class="floating ui teal label" id="zoom-str">???</div>
+                        </a>
+                        <a class="item" id="zoom-out-btn">
+                            <i class="icon zoom-out"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="ui equal width bottom attached gray buttons">
+            <button id="pdfDownload" class="ui blue button">PDF<span id="pdfBtnStr"></span></button>
+            <!--button id="downImg" class="ui secondary button">JPG</button-->
+            <button id="resetBtn" class="ui violet button">RESET</button>
+            <!--button id="rerenderBtn" name="rerender" class="ui button">리렌더링</button-->
+        </div>
+    </div>
+
+    <div id="imgContainer" class="ui raised blue container segment" style="display:none"></div>
+
+
+    <div id="createCanvas">
+        <div id="musicSheet" center align="center" class="musicSheet"></div>
+    </div>
+
+
+    <script src="./js/hymnArray.js"></script>
+    <script src="./js/hymnXmlViewer.min.js"></script>
+
+</body>
+
+</html>
