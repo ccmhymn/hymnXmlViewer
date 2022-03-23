@@ -1,3 +1,4 @@
+        // ver 0.9
         var show_debugs = false; // debug mode
 
         document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
