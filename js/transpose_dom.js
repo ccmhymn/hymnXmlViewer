@@ -665,7 +665,7 @@
             }
             let xml_header = this.xml_string.substr(0, ipos);
 
-            console.log("XML_HEADER: %s", xml_header);
+            //console.log("XML_HEADER: %s", xml_header);
 
             let dom_object;
 
