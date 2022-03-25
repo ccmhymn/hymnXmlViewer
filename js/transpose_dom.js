@@ -1400,7 +1400,7 @@
                                             }
 
                                             //voice
-                                            console.log("=========== note.stem: " + note.stem);
+                                            if (show_output) console.log("=========== note.stem: " + note.stem);
 
                                             if (show_output)
                                                 console.log("note_offset: %s note_position: %s new_stem_direction: %s", note_offset, note_position, new_stem_direction);
