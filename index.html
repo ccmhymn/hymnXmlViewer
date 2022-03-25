@@ -17,7 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://unpkg.com/svg2pdf.js@2.2.0/dist/svg2pdf.umd.min.js"></script>
     
-    <script src="./js/transpose_dom.js?ver=1.0"></script>
+    <script src="./js/transpose_dom.js?ver=1.1"></script>
     <script src="./js/KoPub-font-base64.js"></script>
     <script src="./js/NanumMyeongjo-font-base64.js"></script>
     <script src="./js/Namum-font-base64.js"></script>
@@ -32,7 +32,7 @@
             var elt = document.getElementById('get_file');
             //song_name = elt.files.item(0).name;
             song_name = "test name";
-            console.log("(IN OPEN FILE: song_name: %s", song_name);
+            if (show_debugs) console.log("(IN OPEN FILE: song_name: %s", song_name);
             set_element_value("song_name", song_name);
             parameters.song_name = song_name;
 
@@ -42,7 +42,7 @@
             reader = new FileReader();
             reader.onload = fileLoaded;
             flag = 1; // reading
-            console.log("SET FLAG: %s READING", flag);
+            if (show_debugs) console.log("SET FLAG: %s READING", flag);
 
 
             var file = event.target.files[0];
@@ -64,7 +64,7 @@
 
         // save parameters after every change
         function save_parameter_change() {
-            console.log("save_parameter_change");
+            if (show_debugs) console.log("save_parameter_change");
             get_parameters_from_elements();
             store_parameters();
             return (true);
@@ -75,20 +75,20 @@
         // these read the latest parameters
         function add_to_parameters(svar) {
             value = get_element_value(svar);
-            //console.log("add_to_parameters: svar: %s: value: %s", svar, value);
+            //if (show_debugs) console.log("add_to_parameters: svar: %s: value: %s", svar, value);
             parameters[svar] = value;
 
         }
 
         function add_to_parameters_number(svar) {
             value = get_element_value(svar);
-            //console.log("add_to_parameters: svar: %s: value: %s", svar, value);
+            //if (show_debugs) console.log("add_to_parameters: svar: %s: value: %s", svar, value);
             parameters[svar] = Number(value);
 
         }
 
         function get_parameters_from_elements() {
-            console.log(get_self());
+            if (show_debugs) console.log(get_self());
             add_to_parameters("song_name");
             add_to_parameters("transpose_key");
             add_to_parameters("transpose_direction");
@@ -98,28 +98,28 @@
         }
 
         function store_parameters() {
-            console.log(get_self());
+            if (show_debugs) console.log(get_self());
             get_parameters_from_elements();
             json_string = JSON.stringify(parameters);
-            console.log("json_string: %s", json_string);
+            if (show_debugs) console.log("json_string: %s", json_string);
 
             storage_key = parameters.song_name;
             if (!storage_key || storage_key == "")
                 storage_key = "xml_transpose";
-            console.log("setItem for storage_key: %s", storage_key);
+            if (show_debugs) console.log("setItem for storage_key: %s", storage_key);
             localStorage.setItem(storage_key, json_string);
 
         }
 
         function load_parameters(storage_key) {
-            console.log("load_parameters: %s", storage_key);
+            if (show_debugs) console.log("load_parameters: %s", storage_key);
             json_string = localStorage.getItem(storage_key);
-            console.log("json_string: %s", json_string);
+            if (show_debugs) console.log("json_string: %s", json_string);
             parameters_parsed = JSON.parse(json_string);
 
             for (var key in parameters_parsed) {
                 var value = parameters_parsed[key];
-                console.log("load_parameters: key: %s value:  %s", key, value);
+                if (show_debugs) console.log("load_parameters: key: %s value:  %s", key, value);
                 set_element_value(key, value);
             }
 
@@ -163,7 +163,7 @@
 
         // to save output
         function prepare_output_file() {
-            console.log("SAVE OUTPUT FILE");
+            if (show_debugs) console.log("SAVE OUTPUT FILE");
 
         }
     </script>    
@@ -182,7 +182,7 @@
                     <div class="ten wide column">
                         <div class="ui header">
                             <i class="music icon"></i>
-                            새찬송가 악보 뷰어 ver 1.0
+                            새찬송가 악보 뷰어 ver 1.1
                         </div>
                     </div>
                     <div class="right aligned six wide column">
@@ -342,7 +342,7 @@ function doKeyChange(prosAndCons) {
 	  
 	  $("#transpose_key").val(majorCircle[position]);
 	  $("#transpose_label").text(circleArray[position]);
-	  console.log("position: " + position + " / Key: " + circleArray[position]);
+	  if (show_debugs) console.log("position: " + position + " / Key: " + circleArray[position]);
   }
   
   if(prosAndCons == 'minus'){
@@ -356,7 +356,7 @@ function doKeyChange(prosAndCons) {
 	  
 	  $("#transpose_key").val(majorCircle[position]);
 	  $("#transpose_label").text(circleArray[position]);
-	  console.log("position: " + position + " / Key: "+ circleArray[position]);
+	  if (show_debugs) console.log("position: " + position + " / Key: "+ circleArray[position]);
   }
   
   do_transpose();
@@ -417,19 +417,19 @@ function doKeyChange(prosAndCons) {
             if (elt.tagName == "SELECT") {
                 for (var ii = 0; ii < elt.options.length; ii++) {
                     elt_value = elt.options[ii].value;
-                    //console.log("ii: %s %s %s %s == %s", 
+                    //if (show_debugs) console.log("ii: %s %s %s %s == %s", 
                     //    ii, sid, value, elt_value, (value == elt_value) ? "T" : "F" )
                     if (elt.options[ii].value == value) {
                         elt.selectedIndex = ii;
 
-                        //console.log("set_element_value: SELECT: %s value: %s index: %s", sid, ii, value);
+                        //if (show_debugs) console.log("set_element_value: SELECT: %s value: %s index: %s", sid, ii, value);
                         return;
                     }
                 }
                 throw (sid + " - value not found: " + value, sid, value);
             } else {
                 elt.value = value;
-                //console.log("set_element_value: sid: %s value: %s elt.value: %s", sid, value, elt.value);
+                //if (show_debugs) console.log("set_element_value: sid: %s value: %s elt.value: %s", sid, value, elt.value);
             }
         }
 
@@ -460,10 +460,10 @@ function doKeyChange(prosAndCons) {
         //var xml_string;
 
         function do_transpose() {
-            console.log("DO TRANSPOSE");
+            if (show_debugs) console.log("DO TRANSPOSE");
             //this.get_dom();
 
-            //console.log("DO_SONG: xml_string_passed(0, 100): %s", xml_string_passed.substr(0, 100));
+            //if (show_debugs) console.log("DO_SONG: xml_string_passed(0, 100): %s", xml_string_passed.substr(0, 100));
             save_parameter_change();
 
             get_parameters_from_elements(); // get latest parameters
@@ -478,7 +478,7 @@ function doKeyChange(prosAndCons) {
             // song_name - not currently used
             // show_output - true to show all console.logs
 
-            console.log(`parameters.transpose_key: %s parameters.transpose_key != "None": %s`, parameters.transpose_key, parameters.transpose_key != "None");
+            if (show_debugs) console.log(`parameters.transpose_key: %s parameters.transpose_key != "None": %s`, parameters.transpose_key, parameters.transpose_key != "None");
             if (parameters.transpose_key != "None"); {
                 // xml_string is used for file save, display and copy to clipboard.
                 xml_string = osmd_transpose.transpose_xml(parameters, xml_string);
@@ -502,7 +502,7 @@ function doKeyChange(prosAndCons) {
 
 
 
-                //console.log("output_file_name: %s", output_file_name);
+                //if (show_debugs) console.log("output_file_name: %s", output_file_name);
 
                 //elt = document.getElementById("prepare_output_file");
                 //elt.style.display = "block";
@@ -571,7 +571,7 @@ function doKeyChange(prosAndCons) {
         function zoomTest() {
         	zoomVal = 2;
             window.setTimeout(function() {
-                if (show_debugs) console.log("확대/축소: " + "2");
+                if (show_debugs) if (show_debugs) console.log("확대/축소: " + "2");
                 if (osmd.IsReadyToRender()) {
                     //renderingSheet(xml_string);
                     osmd.Zoom = 2;
@@ -598,7 +598,7 @@ function doKeyChange(prosAndCons) {
         document.cookie = willCookie;
 
         // 출력한다.
-        console.log(document.cookie);
+        if (show_debugs) console.log(document.cookie);
     }	
 
 	$(document).ready(function() {
