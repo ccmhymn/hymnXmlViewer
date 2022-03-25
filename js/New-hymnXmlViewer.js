@@ -1,4 +1,4 @@
-		// ver 0.9 20220323-1
+		// ver 1.0 20220325-1
         var show_debugs = false; // debug mode
 
         document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
@@ -259,7 +259,7 @@
                 
                 xml_string_loaded = data;
                 
-                console.log(data);
+                if (show_debugs) console.log(data);
                 
 
             // store xml and name for reload
@@ -285,7 +285,7 @@
 
             maxLength = circleArray.length;
             position = circleArray.indexOf(originalKey); //최초 키값
-            console.log("=========originalKey: " + originalKey);
+            if (show_debugs) console.log("=========originalKey: " + originalKey);
             ////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -373,7 +373,7 @@
             localStorage.setItem('song_data', xml_string_loaded);
             localStorage.setItem('song_name', song_name);
             
-            console.log(xml_string_loaded);
+            if (show_debugs) console.log(xml_string_loaded);
 
             ////////////////////////////////////////////////////////////////////////////////////////////////
             $("#transpose_key").val('None');
@@ -394,7 +394,7 @@
 
             maxLength = circleArray.length;
             position = circleArray.indexOf(originalKey); //최초 키값
-            console.log("=========originalKey: " + originalKey);
+            if (show_debugs) console.log("=========originalKey: " + originalKey);
             ////////////////////////////////////////////////////////////////////////////////////////////////                
                 renderOSMD(xml_string_loaded);
 
@@ -636,7 +636,7 @@
         //******************* OSMD Rendering	
         async function renderOSMD(data) {
             await osmd.load(data);
-            osmd.Sheet.Transpose = parseInt(transposeVal);
+            //osmd.Sheet.Transpose = parseInt(transposeVal);
             osmd.zoom = zoomVal;
             osmd.setOptions({
                 backend: "svg", //svg, canvas
