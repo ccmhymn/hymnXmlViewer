@@ -1,5 +1,5 @@
 		// ver 1.0 20220325-1
-        var show_debugs = false; // debug mode
+        //var show_debugs = false; // debug mode
 
         document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
         //const {jsPDF} = window.jspdf;
