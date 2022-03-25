@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hymn Viewer via MusicXml</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.4.5/build/opensheetmusicdisplay.min.js" integrity="sha256-6gCVkfTMk/vV431iszn/B3dUYJCaQO+o82xEAFERB9U=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://unpkg.com/svg2pdf.js@2.2.0/dist/svg2pdf.umd.min.js"></script>
+    
+    <script src="./js/transpose_dom.js?ver=3.1"></script>
+    <script src="./js/KoPub-font-base64.js"></script>
+    <script src="./js/NanumMyeongjo-font-base64.js"></script>
+    <script src="./js/Namum-font-base64.js"></script>
+
+    <link rel="stylesheet" href="hymnXmlViewer.css" />
+    
+    <script>
+
+        var parameters = {};
+        var song_name;
+        var openFile = function(event) {
+            var elt = document.getElementById('get_file');
+            //song_name = elt.files.item(0).name;
+            song_name = "test name";
+            console.log("(IN OPEN FILE: song_name: %s", song_name);
+            set_element_value("song_name", song_name);
+            parameters.song_name = song_name;
+
+
+            var input = event.target;
+
+            reader = new FileReader();
+            reader.onload = fileLoaded;
+            flag = 1; // reading
+            console.log("SET FLAG: %s READING", flag);
+
+
+            var file = event.target.files[0];
+
+            if (!file.name.match('.*\.xml') && !file.name.match('.*\.musicxml') && !file.name.match('.*\.mxl')) {
+                alert('You selected a non-xml file. Please select only music xml files.');
+                return;
+            }
+
+
+
+            if (file.name.match('.*\.mxl')) {
+                // have to read as binary, otherwise JSZip will throw ("corrupted zip: missing 37 bytes" or similar)
+                reader.readAsBinaryString(file);
+            } else {
+                reader.readAsText(file);
+            }
+        };
+
+        // save parameters after every change
+        function save_parameter_change() {
+            console.log("save_parameter_change");
+            get_parameters_from_elements();
+            store_parameters();
+            return (true);
+        }
+
+
+
+        // these read the latest parameters
+        function add_to_parameters(svar) {
+            value = get_element_value(svar);
+            //console.log("add_to_parameters: svar: %s: value: %s", svar, value);
+            parameters[svar] = value;
+
+        }
+
+        function add_to_parameters_number(svar) {
+            value = get_element_value(svar);
+            //console.log("add_to_parameters: svar: %s: value: %s", svar, value);
+            parameters[svar] = Number(value);
+
+        }
+
+        function get_parameters_from_elements() {
+            console.log(get_self());
+            add_to_parameters("song_name");
+            add_to_parameters("transpose_key");
+            add_to_parameters("transpose_direction");
+            add_to_parameters_number("show_output");
+
+
+        }
+
+        function store_parameters() {
+            console.log(get_self());
+            get_parameters_from_elements();
+            json_string = JSON.stringify(parameters);
+            console.log("json_string: %s", json_string);
+
+            storage_key = parameters.song_name;
+            if (!storage_key || storage_key == "")
+                storage_key = "xml_transpose";
+            console.log("setItem for storage_key: %s", storage_key);
+            localStorage.setItem(storage_key, json_string);
+
+        }
+
+        function load_parameters(storage_key) {
+            console.log("load_parameters: %s", storage_key);
+            json_string = localStorage.getItem(storage_key);
+            console.log("json_string: %s", json_string);
+            parameters_parsed = JSON.parse(json_string);
+
+            for (var key in parameters_parsed) {
+                var value = parameters_parsed[key];
+                console.log("load_parameters: key: %s value:  %s", key, value);
+                set_element_value(key, value);
+            }
+
+
+        }
+
+
+
+        var fileLoaded = function(event) {
+            xml_string_loaded = event.target.result;
+            // store xml and name for reload
+            localStorage.setItem('song_data', xml_string_loaded);
+            localStorage.setItem('song_name', song_name);
+
+            ////////////////////////////////////////////////////////////////////////////////////////////////
+            $("#transpose_key").val('None');
+            $("#transpose_label").text('key');
+            originalKey = getKeyXML(xml_string_loaded); //최초 로딩된 XML 데이터에서 원래키 구하기
+            $("#transpose_label").text(originalKey);
+
+            let fifths = $(xml_string_loaded).find("fifths");
+            let majorMinor = $(xml_string_loaded).find("mode");
+            const numberOfAccidentals = fifths[0].childNodes[0].nodeValue;
+            const mode = majorMinor[0].childNodes[0].nodeValue;
+
+            if (mode == 'major') {
+                circleArray = majorCircle;
+            } else if (mode == 'minor') {
+                circleArray = minorCircle;
+            }
+
+            maxLength = circleArray.length;
+            position = circleArray.indexOf(originalKey); //최초 키값
+            console.log("=========originalKey: " + originalKey);
+            ////////////////////////////////////////////////////////////////////////////////////////////////
+
+            renderingSheet(xml_string_loaded);
+            // do_transpose();
+
+        }
+
+        // to save output
+        function prepare_output_file() {
+            console.log("SAVE OUTPUT FILE");
+
+        }
+    </script>    
+
+</head>
+
+<body>
+    <div id="topContainer" class="ui container raised segments">
+        <div class="ui dimmer">
+            <div class="ui indeterminate massive text loader">생성중...</div>
+        </div>
+
+        <div class="ui attached orange segment">
+            <div class="ui top attached gray label">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui header">
+                            <i class="music icon"></i>
+                            새찬송가 악보 뷰어 ver 1.0
+                        </div>
+                    </div>
+                    <div class="right aligned six wide column">
+                        <a href="https://ccmhymn.github.io/sheet/" target="_blank">
+                            <i class="linkify icon"></i>관련링크
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ui grid">
+                <div class="eleven wide column">
+                    <div class="ui">
+                        <select id="hymnLists" class="ui fluid search selection scrolling dropdown">
+                            <option>- 장/제목 검색 -</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui fluid labeled input">
+                        <label class="ui fluid label gray basic button" for="fileInput" data-tooltip="xml,mxl,musicxml" data-position="top right"><i class="file icon"></i>파일</label>
+                        <input type="file" id="fileInput" name="file" class="ui basic primary button" accept=".xml,.mxl,.musicxml" formenctype="application/zip" style="display:none;" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui attached equal width grid">
+                <div class="column">
+                    <div class="ui menu">
+                        <select id="Fontface" onchange="changeFont()" class="ui fluid selection scrolling dropdown">
+                            <option value="KoPubDotumMedium">돋움</option>
+                            <option value="NanumMyeongjo" selected>명조</option>
+                            <option value="NanumBarunGothic">고딕</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui fluid two item menu">
+                        <a class="item" id="transpose-up-btn">
+                            <i class="icon arrow up"></i>
+                            <div class="floating ui teal label" id="transpose-str">Key</div>
+                        </a>
+                        <a class="item" id="transpose-down-btn">
+                            <i class="icon arrow down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="ui fluid two item menu">
+                        <a class="item" id="zoom-in-btn">
+                            <i class="icon zoom-in"></i>
+                            <div class="floating ui teal label" id="zoom-str">???</div>
+                        </a>
+                        <a class="item" id="zoom-out-btn">
+                            <i class="icon zoom-out"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="ui equal width bottom attached gray buttons">
+            <button id="pdfDownload" class="ui blue button">PDF<span id="pdfBtnStr"></span></button>
+            <!--button id="downImg" class="ui secondary button">JPG</button-->
+            <button id="resetBtn" class="ui violet button">RESET</button>
+            <!--button id="rerenderBtn" name="rerender" class="ui button">리렌더링</button-->
+        </div>
+    </div>
+
+    <div id="imgContainer" class="ui raised blue container segment" style="display:none"></div>
+
+
+    <div id="createCanvas">
+        <div id="musicSheet" center align="center" class="musicSheet"></div>
+    </div>
+
+
+
+<!-- start for hidden parameter -->
+    <div style="display:none">
+
+        <div class="ui">
+        	<div class="ui bottons">
+	            <button id="plus" class="ui botton" onclick="doKeyChange('plus')">+</button>
+	            <button id="minus" class="ui botton" onclick="doKeyChange('minus')">-</button>
+	        </div>
+	        <div class="ui label" id="transpose_label" name="transpose_label"></div>
+	        <input class="ui input" id="transpose_key" name="transpose_key" style="display:none">
+        </div>      
+        <div class="ui">
+            <h3> Select Music XML file</h3>
+            <input class="ui button" type='file' id="get_file" accept=".xml,.mxl,.musicxml" onchange="openFile(event);">
+            <input type="hidden" name="load_song" id="load_song" value=1>
+        </div>
+    </div>
+
+
+    <div style="display:none">
+        <input type=text id="song_name" name="song_name" onchange="save_parameter_change();">
+        <select id="transpose_direction" name="transpose_direction" class="ui labeled selection scrolling dropdown" onchange="save_parameter_change();">
+            <option value="closest" selected>근접</option>
+            <option value="up">위로</option>
+            <option value="down">아래로</option>
+        </select>
+        <select id="show_output" name="show_output" onchange="save_parameter_change();">
+            <option value=0 selected>No</option>
+            <option value=1>Yes</option>
+        </select>
+        <button class="ui blue button" onclick="do_transpose();">Do Transpose</button>
+        <input class="ui button" type=text name="output_file_name" id="output_file_name">
+        <button class="ui red button" onclick="prepare_output_file();">Prepare Output File</button>
+        <div class="ui" id=download_div style="display:none;">
+            <a id="download_link" target="_blank" download="test.xml"><button class="ui button">Click here to Download <span id=download_output></span></button></a>
+        </div>
+        <button class="ui button" onclick="show_transposed_score();">Show Transposed Score</button>
+        <button class="ui button" onclick="copy_transposed_score();">Copy Transposed Score to Clipboard</button>
+    </div>
+<!-- end for hidden parameter -->  
+
+
+
+
+    <script src="./js/hymnArray.js"></script>
+
+    
+    <script>
+var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("musicSheet");    
+//var majorCircle = ['Ab',	'A',	'Bb',	'B',	'Cb',	'C',	'C#',	'Db',	'D',	'Eb',	'E',	'F',	'F#',	'Gb',	'G'];
+//var minorCircle = ['Fm',	'F#m',	'Gm',	'G#m',	'Abm',	'Am',	'A#m',	'Bbm',	'Bm',	'Cm',	'C#m',	'Dm',	'D#m',	'Ebm',	'Em'];
+
+var majorCircle = ['Ab',	'A',	'Bb',	'B',	'C',	'Db',	'D',	'Eb',	'E',	'F',	'F#',	'G'];
+var minorCircle = ['Fm',	'F#m',	'Gm',	'G#m',	'Am',	'Bbm',	'Bm',	'Cm',	'C#m',	'Dm',	'D#m',	'Em'];
+
+var circleArray = [];
+var maxLength,
+	position;
+var originalKey,
+	changedKey;
+	
+
+
+
+
+function doKeyChange(prosAndCons) {
+ 
+  if(prosAndCons == 'plus'){
+	  if(position < (maxLength-1)) {
+		position += 1;
+
+	  } else if(position >= (maxLength-1)) {
+	  	position = 0;
+
+	  }
+	  
+	  $("#transpose_key").val(majorCircle[position]);
+	  $("#transpose_label").text(circleArray[position]);
+	  console.log("position: " + position + " / Key: " + circleArray[position]);
+  }
+  
+  if(prosAndCons == 'minus'){
+	  if(position > 0) {
+		position += (-1);
+
+	  } else if(position <= 0) {
+	  	position = (maxLength-1);
+
+	  }
+	  
+	  $("#transpose_key").val(majorCircle[position]);
+	  $("#transpose_label").text(circleArray[position]);
+	  console.log("position: " + position + " / Key: "+ circleArray[position]);
+  }
+  
+  do_transpose();
+  
+}    
+
+        var elt_value;
+
+        elt = document.getElementById("version");
+        // make sure this is define at this point
+        if (typeof(namespace) != "undefined")
+            elt.innerText = "OSMD Transpose DOM version: " + namespace.version;
+
+
+        var osmds = new Array(5);
+
+        var xml_strings = [];
+        //var xml_string;
+
+        load_parameters("xml_transpose");
+
+
+        function show_transposed_score() {
+            //elt = document.getElementById("transposed_score");
+            //elt.style.display = "block";
+        }
+
+        function copy_transposed_score() {
+            if (!xml_string || xml_string == "")
+                alert("No Transposed Score available");
+            else {
+                copyToClipboard(xml_string);
+                alert(xml_string.length + " bytes copied to clipboard");
+            }
+        }
+
+        function copyToClipboard(text) {
+            var dummy = document.createElement("textarea");
+            // to avoid breaking orgain page when copying more words
+            // cant copy when adding below this code
+            // dummy.style.display = 'none'
+            document.body.appendChild(dummy);
+            //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
+            dummy.value = text;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+        }
+
+
+
+        function set_element_value(sid, value) {
+            elt = document.getElementById(sid);
+            if (!elt) {
+                throw ("ELT NOT FOUND: " + sid);
+            }
+
+            if (elt.tagName == "SELECT") {
+                for (var ii = 0; ii < elt.options.length; ii++) {
+                    elt_value = elt.options[ii].value;
+                    //console.log("ii: %s %s %s %s == %s", 
+                    //    ii, sid, value, elt_value, (value == elt_value) ? "T" : "F" )
+                    if (elt.options[ii].value == value) {
+                        elt.selectedIndex = ii;
+
+                        //console.log("set_element_value: SELECT: %s value: %s index: %s", sid, ii, value);
+                        return;
+                    }
+                }
+                throw (sid + " - value not found: " + value, sid, value);
+            } else {
+                elt.value = value;
+                //console.log("set_element_value: sid: %s value: %s elt.value: %s", sid, value, elt.value);
+            }
+        }
+
+        function get_element_value(sid) {
+            elt = document.getElementById(sid);
+            if (!elt)
+                throw ("elt not found: " + sid);
+            if (elt.tagName == "SELECT") {
+                value = elt.options[elt.selectedIndex].value;
+            } else
+                value = elt.value;
+            return (value);
+        }
+
+        function get_element_number(sid) {
+            value = get_element_value(sid);
+            value = Number(value);
+            return (value);
+        }
+
+        function get_self() {
+            // don't display anything here
+            return ("");
+        }
+
+        //var xml_string_loaded; // loaded from disk  
+        //var xml_string_passed; //passed in local storage
+        //var xml_string;
+
+        function do_transpose() {
+            console.log("DO TRANSPOSE");
+            //this.get_dom();
+
+            //console.log("DO_SONG: xml_string_passed(0, 100): %s", xml_string_passed.substr(0, 100));
+            save_parameter_change();
+
+            get_parameters_from_elements(); // get latest parameters
+            xml_string = xml_string_loaded;
+
+            if (!xml_string)
+                throw ("NO XML STRING");
+
+            // parameters used:
+            // transpose_key e.g. "Bb"
+            // transpose_direction - "up" or "down" (use closest if not set)
+            // song_name - not currently used
+            // show_output - true to show all console.logs
+
+            console.log(`parameters.transpose_key: %s parameters.transpose_key != "None": %s`, parameters.transpose_key, parameters.transpose_key != "None");
+            if (parameters.transpose_key != "None"); {
+                // xml_string is used for file save, display and copy to clipboard.
+                xml_string = osmd_transpose.transpose_xml(parameters, xml_string);
+                //osmd_transpose.parse_with_pop(parameters, xml_string);
+                //throw("AFTER parse");
+
+                //elt = document.getElementById("transposed_score");
+                //elt.innerText = xml_string;
+
+                // build output file name
+
+                //if (output_file_name == "")
+                {
+                    get_parameters_from_elements();
+                    //output_file_name = song_name;
+                    //ipos = output_file_name.lastIndexOf(".");
+                    //if (ipos >= 0)
+                    //    output_file_name = output_file_name.substr(0, ipos) + "-" + parameters.transpose_key + output_file_name.substr(ipos);
+                    //set_element_value("output_file_name", output_file_name);
+                }
+
+
+
+                //console.log("output_file_name: %s", output_file_name);
+
+                //elt = document.getElementById("prepare_output_file");
+                //elt.style.display = "block";
+                
+                renderingSheet(xml_string);
+                
+                changedKey = getKeyXML(xml_string); // XML 데이터에서 바뀐 키 구하기
+                console.log("=========changedKey: " + changedKey);
+
+
+            }
+        }
+        
+    
+    function renderingSheet(data) {
+
+        $("#musicSheet").empty();
+        osmd.load(data);
+        osmd.zoom = zoomVal;   
+            osmd.setOptions({
+                backend: "svg", //svg, canvas
+                drawSlurs: true,
+                pageFormat: "A4_P",
+
+                defaultFontFamily: fontFamilyName, // "KoPubDotumMedium", "GmarketSansLight", "NanumMyeongjo"
+                defaultFontStyle: 0, // 0=regular, 1=bold, 2=italic
+                defaultColorTitle: "black", // chocolate, coral, darkblue, darkgray, darkviolet
+                
+                setWantedStemDirectionByXml: true,
+                autoResize: false,
+                autoBeam: false,
+                // try true, OSMD Function Test AutoBeam sample
+                autoBeamOptions: {
+                    beam_rests: false,
+                    beam_middle_rests_only: false,
+                    //groups: [[3,4], [1,1]],
+                    maintain_stem_directions: false
+                },
+
+                drawUpToMeasureNumber: Number.MAX_SAFE_INTEGER,
+                drawLyrics: true,
+                drawTitle: true,
+                drawSubtitle: true,
+                drawComposer: true,
+                drawLyricist: true,
+                drawCredits: true,
+                drawMetronomeMarks: true,
+                drawPartNames: false,
+                drawPartAbbreviations: true,
+                drawMeasureNumbers: true,
+                drawingParameters: "default", // allon, compact, compacttight, default, leadsheet, preview, thumbnail
+                RenderChordSymbols: true,
+                //measureNumberInterval: 3,
+                //pageBackgroundColor: pageBackgroundColor,
+                //renderSingleHorizontalStaffline: singleHorizontalStaffline,
+                stretchLastSystemLine: true
+
+            });
+            
+        //osmd.updateGraphic();
+        osmd.render();
+        changeSetting();
+        zoomDiv();	
+    }
+    
+        function zoomTest() {
+        	zoomVal = 2;
+            window.setTimeout(function() {
+                if (show_debugs) console.log("확대/축소: " + "2");
+                if (osmd.IsReadyToRender()) {
+                    //renderingSheet(xml_string);
+                    osmd.Zoom = 2;
+                    osmd.render();
+                    changeSetting();
+                    zoomDiv();
+                }
+            }, 0);
+        }    
+    
+    
+    
+    // 쿠키 삭제 함수//
+    function cookieRemove() {
+        // 변수를 선언한다.
+        var date = new Date();
+        date.setDate(date.getDate() - 1);
+
+        var willCookie = "";
+        willCookie += "CookieName=Value;";
+        willCookie += "Expires=" + "Thu, 01 Jan 1999 00:00:10 GMT";
+
+        // 쿠키를 집어넣는다.
+        document.cookie = willCookie;
+
+        // 출력한다.
+        console.log(document.cookie);
+    }	
+
+	$(document).ready(function() {
+	    //cookieRemove();
+	});
+    </script>
+
+    <script src="./js/New-hymnXmlViewer.js?ver=3.2"></script>
+
+
+
+</body>
+
+</html>
