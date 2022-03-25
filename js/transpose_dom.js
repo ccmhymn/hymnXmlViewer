@@ -5,7 +5,7 @@
         var xml_string_passed; //passed in local storage
         var xml_string;
 
-    osmd_transpose.version = "2022-03-25 16:00";
+    osmd_transpose.version = "2022-03-25 19:00";
     console.log("IN tranpose_dom.js Version: %s", osmd_transpose.version);
 
     osmd_transpose.initialize = function() {
