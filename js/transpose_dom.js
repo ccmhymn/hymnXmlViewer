@@ -523,7 +523,7 @@
 
         this.transpose_pitch = function(old_step, old_alter, old_octave) {
             let parameters = this.parameters;
-            let show_output = this.show_output;
+            let show_output = false; //this.show_output;
 
             // move to local variables for easier access
             let old_key = this.old_key;
