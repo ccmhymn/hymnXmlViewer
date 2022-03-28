@@ -87,8 +87,8 @@
 
         function getPageNumber() {
             const canvPages = $('div[id^="osmdCanvasPage"]'); // 페이지수 구하기
-            let message = " (" + originalKey + "→" + thisKey + " , " + canvPages.length + "P)"
-            if (originalKey == thisKey) message = " (" + thisKey + " , " + canvPages.length + "P)"
+            let message = " / " + originalKey + "→" + thisKey + " , " + canvPages.length + "P"
+            if (originalKey == thisKey) message = " / " + thisKey + " , " + canvPages.length + "P"
             if (canvPages.length) $('#pdfBtnStr').text(message);
         }
 
