@@ -1,7 +1,8 @@
 		// ver 1.0 20220325-1
-        //var show_debugs = false; // debug mode
+		// var show_debugs = false; // debug mode
 
-        document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
+        //document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
+        
         //const {jsPDF} = window.jspdf;
         window.jsPDF = window.jspdf.jsPDF; //jsPDF 선언하기 참고 => https://gold-goblin.tistory.com/m/entry/html-화면을-PDF로-출력하기
         //var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("musicSheet");
@@ -173,6 +174,7 @@
             window.setTimeout(function() {
                 //******************* Font Setting
                 fontFamilyName = $("#Fontface").val(); //$("#Fontface").val(); // NanumMyeongjo, KoPubDotumMedium, NanumBarunGothic
+                if (fontFamilyName === "ChosunKm") fontFamilyVar = ChosunKm;
                 if (fontFamilyName === "NanumMyeongjo") fontFamilyVar = NanumMyeongjo;
                 if (fontFamilyName === "KoPubDotumMedium") fontFamilyVar = KoPubDotumMedium;
                 if (fontFamilyName === "NanumBarunGothic") fontFamilyVar = NanumBarunGothic;
@@ -722,7 +724,8 @@
             transposeDowns.push(document.getElementById("transpose-down-btn"));
 
             //******************* Font Setting
-            fontFamilyName = "NanumMyeongjo"; //$("#Fontface").val(); // NanumMyeongjo, KoPubDotumMedium, NanumBarunGothic
+            fontFamilyName = "ChosunKm"; //$("#Fontface").val(); // ChosunKm, NanumMyeongjo, KoPubDotumMedium, NanumBarunGothic
+            if (fontFamilyName === "ChosunKm") fontFamilyVar = ChosunKm;
             if (fontFamilyName === "NanumMyeongjo") fontFamilyVar = NanumMyeongjo;
             if (fontFamilyName === "KoPubDotumMedium") fontFamilyVar = KoPubDotumMedium;
             if (fontFamilyName === "NanumBarunGothic") fontFamilyVar = NanumBarunGothic;
