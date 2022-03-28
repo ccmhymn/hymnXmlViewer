@@ -17,7 +17,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://unpkg.com/svg2pdf.js@2.2.0/dist/svg2pdf.umd.min.js"></script>
     
-    <script src="./js/transpose_dom.js?ver=1.1"></script>
+    <script src="./js/transpose_dom.js?ver=1.2"></script>
+    
+    <script src="./js/ChosunKm-font-base64.js"></script>
     <script src="./js/KoPub-font-base64.js"></script>
     <script src="./js/NanumMyeongjo-font-base64.js"></script>
     <script src="./js/Namum-font-base64.js"></script>
@@ -25,7 +27,8 @@
     <link rel="stylesheet" href="hymnXmlViewer.css" />
     
     <script>
-	var show_debugs = false;
+
+        var show_debugs = false;
         var parameters = {};
         var song_name;
         var openFile = function(event) {
@@ -182,7 +185,7 @@
                     <div class="ten wide column">
                         <div class="ui header">
                             <i class="music icon"></i>
-                            새찬송가 악보 뷰어 ver 1.1
+                            새찬송가 악보 뷰어 ver 1.2
                         </div>
                     </div>
                     <div class="right aligned six wide column">
@@ -192,28 +195,15 @@
                     </div>
                 </div>
             </div>
-            <div class="ui grid">
-                <div class="eleven wide column">
-                    <div class="ui">
-                        <select id="hymnLists" class="ui fluid search selection scrolling dropdown">
-                            <option>- 장/제목 검색 -</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="five wide column">
-                    <div class="ui fluid labeled input">
-                        <label class="ui fluid label gray basic button" for="fileInput" data-tooltip="xml,mxl,musicxml" data-position="top right"><i class="file icon"></i>파일</label>
-                        <input type="file" id="fileInput" name="file" class="ui basic primary button" accept=".xml,.mxl,.musicxml" formenctype="application/zip" style="display:none;" />
-                    </div>
-                </div>
-            </div>
 
-            <div class="ui attached equal width grid">
+
+            <div class="ui equal width grid">
                 <div class="column">
                     <div class="ui menu">
                         <select id="Fontface" onchange="changeFont()" class="ui fluid selection scrolling dropdown">
+                            <option value="ChosunKm" selected>기본폰트</option>
                             <option value="KoPubDotumMedium">돋움</option>
-                            <option value="NanumMyeongjo" selected>명조</option>
+                            <option value="NanumMyeongjo">명조</option>
                             <option value="NanumBarunGothic">고딕</option>
                         </select>
                     </div>
@@ -244,6 +234,22 @@
                 </div>
                 
             </div>
+            
+            <div class="ui grid">
+                <div class="sixteen wide column"><!--div class="eleven wide column"-->
+                    <div class="ui">
+                        <select id="hymnLists" class="ui fluid search selection scrolling dropdown">
+                            <option>- 장/제목 검색 -</option>
+                        </select>
+                    </div>
+                </div>
+                <!--div class="five wide column">
+                    <div class="ui fluid labeled input">
+                        <label class="ui fluid label gray basic button" for="fileInput" data-tooltip="xml,mxl,musicxml" data-position="top right"><i class="file icon"></i>파일</label>
+                        <input type="file" id="fileInput" name="file" class="ui basic primary button" accept=".xml,.mxl,.musicxml" formenctype="application/zip" style="display:none;" />
+                    </div>
+                </div-->
+            </div>            
             
         </div>
         
@@ -606,7 +612,7 @@ function doKeyChange(prosAndCons) {
 	});
     </script>
 
-    <script src="./js/New-hymnXmlViewer.js?ver=1.0"></script>
+    <script src="./js/New-hymnXmlViewer.js?ver=1.2"></script>
 
 
 
