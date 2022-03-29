@@ -241,9 +241,11 @@
 
         //******************* File Select Option
         $("#hymnLists").on('change', function() {
-
+            
+            if (this.value == "default" || this.value == "") {return false;}
+            
             init();
-
+            
             const fileName = this.value + ".xml";
             const fileParents = "./HymnXML_Merge/";
             const hymnUrl = fileParents + fileName;
@@ -290,10 +292,6 @@
             if (show_debugs) console.log("=========originalKey: " + originalKey);
             ////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-                
-                
-                
                     if (show_debugs) console.log("fontFamilyName: " + fontFamilyName);
                     //if (show_debugs) console.log(data);
                     originalKey = getKeyXML(xml_string_loaded); // XML 데이터에서 키 구하기
@@ -306,7 +304,7 @@
                 },
                 error: function(request, status, error) {
                     if (show_debugs) console.error("XML로딩에러 \n code = " + request.status + " message = " + request.responseText + " error = " + error); // 실패 시 처리
-                    alert("XML로딩에러 \n code = " + request.status + " message = " + request.responseText + " error = " + error); // 실패 시 처리
+                    console.error("XML로딩에러 \n code = " + request.status + " message = " + request.responseText + " error = " + error); // 실패 시 처리
                 },
                 complete: function() {
                     if (show_debugs) console.log("xml load complete!");
@@ -427,6 +425,7 @@
         //******************* Reset
         $('#resetBtn').click(function() {
             init();
+            $("#hymnLists").dropdown('restore defaults');
         });
 
         //******************* ReRender
